@@ -22,3 +22,30 @@ A dify plugin for processing json format data.
     }
   }
   ```
+
+
+### For Development
+Debug On Dify
+
+1. **Prepare**
+   ```bash
+   #Create a python virtual environment
+   python -m venv venv
+
+   source venv/bin/activate
+   pip install -r requirements.txt
+   ```
+
+2. **Configure**
+   ```bash
+   #see https://docs.dify.ai/plugin-dev-en/0222-creating-new-model-provider-extra#step-4%3A-debug-plugin
+   cp .env.example .env
+   vim .env
+   ```
+
+3. **Run**
+   ```bash
+   source venv/bin/activate
+   python -m main
+   ```
+
