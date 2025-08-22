@@ -1,12 +1,12 @@
 version: 0.0.1
 type: plugin
 author: ameven
-name: dify-json-tools
+name: json-tools
 label:
-  en_US: dify-json-tools
-  ja_JP: dify-json-tools
-  zh_Hans: dify-json-tools
-  pt_BR: dify-json-tools
+  en_US: json-tools
+  ja_JP: json-tools
+  zh_Hans: json-tools
+  pt_BR: json-tools
 description:
   en_US: A dify plugin for processing json format data.
   ja_JP: A dify plugin for processing json format data.
@@ -19,7 +19,7 @@ resource:
   permission: {}
 plugins:
   tools:
-    - provider/dify-json-tools.yaml
+    - provider/json-tools.yaml
 meta:
   version: 0.0.1
   arch:

@@ -1,10 +1,10 @@
 identity:
   author: "ameven"
-  name: "dify-json-tools"
+  name: "json-tools"
   label:
-    en_US: "dify-json-tools"
-    zh_Hans: "dify-json-tools"
-    pt_BR: "dify-json-tools"
+    en_US: "json-tools"
+    zh_Hans: "json-tools"
+    pt_BR: "json-tools"
   description:
     en_US: "A dify plugin for processing json format data."
     zh_Hans: "A dify plugin for processing json format data."
@@ -14,4 +14,4 @@ tools:
   - tools/processing-llm-resp-text.yaml
 extra:
   python:
-    source: provider/dify-json-tools.py
+    source: provider/json-tools.py
